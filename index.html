@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 5</title>
+    <meta name="description" content="Página promocional sobre bio empaques biodegradables para el Proyecto 1 del Grupo 5.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor principal centrado -->
+    <div class="contenedor-principal">
+        <!-- Encabezado del sitio -->
+        <header class="hero">
+            <p class="grupo">Proyecto 1 · Grupo 5</p>
+            <h1>Bio empaques biodegradables</h1>
+            <p class="subtitulo">Soluciones sostenibles para cuidar la biodiversidad, reducir residuos y promover un consumo más responsable.</p>
+        </header>
+
+        <!-- Menú de navegación interno -->
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a href="#concepto">Concepto</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#materiales">Materiales</a>
+            <a href="#integrantes">Integrantes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <main>
+            <!-- Sección de presentación -->
+            <section id="concepto" class="tarjeta destaque">
+                <h2>¿Qué son los bio empaques?</h2>
+                <p>
+                    Los bio empaques son envolturas y recipientes fabricados con materiales de origen natural o de rápida descomposición.
+                    Su objetivo es sustituir el plástico tradicional por opciones <strong>biodegradables</strong>, compostables y menos dañinas
+                    para los ecosistemas. Este tipo de empaque ayuda a disminuir la contaminación y favorece una economía más verde.
+                </p>
+                <figure>
+                    <img src="assets/imagen_bioempaques.png" alt="Ejemplos de empaques biodegradables en tonos verdes y beige">
+                    <figcaption>Imagen alusiva a empaques sostenibles utilizados en emprendimientos ecológicos.</figcaption>
+                </figure>
+            </section>
+
+            <!-- Sección con artículos en cuadrícula -->
+            <section id="beneficios" class="tarjeta">
+                <h2>Beneficios principales</h2>
+                <div class="rejilla">
+                    <article class="mini-tarjeta">
+                        <h3>Menor impacto ambiental</h3>
+                        <p>Se degradan en menos tiempo y reducen la acumulación de residuos sólidos en calles, ríos y suelos.</p>
+                    </article>
+                    <article class="mini-tarjeta">
+                        <h3>Impulso a emprendimientos verdes</h3>
+                        <p>Mejoran la imagen del negocio y atraen a clientes que valoran el compromiso ambiental.</p>
+                    </article>
+                    <article class="mini-tarjeta">
+                        <h3>Protección de la biodiversidad</h3>
+                        <p>Disminuyen el riesgo de afectación a fauna y flora por residuos plásticos de larga duración.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Lista no ordenada -->
+            <section id="materiales" class="tarjeta">
+                <h2>Materiales usados en bio empaques</h2>
+                <ul class="lista-centrada">
+                    <li>Cartón reciclado</li>
+                    <li>Fibras vegetales</li>
+                    <li>Papel kraft</li>
+                    <li>Almidón de maíz</li>
+                    <li>Bagazo de caña</li>
+                </ul>
+                <blockquote>
+                    “Elegir empaques ecológicos es una decisión responsable que beneficia al negocio y al planeta”.
+                </blockquote>
+            </section>
+
+            <!-- Lista ordenada con integrantes -->
+            <section id="integrantes" class="tarjeta">
+                <h2>Integrantes del grupo</h2>
+                <p>Los siguientes nombres son de ejemplo para que luego puedas reemplazarlos por los integrantes reales:</p>
+                <ol class="lista-centrada numerada">
+                    <li>Luis Osorio</li>
+                    <li>Miguel LLorentt</li>
+                    <li>Anthony Peñalba</li>
+                    <li>Jose marin</li>
+                    <li>Esther Gallardo</li>
+                    <li>Jorge Navas</li>
+                </ol>
+
+            </section>
+
+            <!-- Tabla solicitada con una fila y tres columnas -->
+            <section class="tarjeta">
+                <h2>Redes sociales</h2>
+                <table>
+                    <caption>Canales de difusión del emprendimiento</caption>
+                    <tr>
+                        <td>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                                <span class="icono">f</span>
+                                <span>Facebook</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                                <span class="icono">◎</span>
+                                <span>Instagram</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+                                <span class="icono">✆</span>
+                                <span>WhatsApp</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Formulario decorativo para usar más etiquetas HTML -->
+            <section id="contacto" class="tarjeta">
+                <h2>Formulario de contacto</h2>
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué tipo de empaque necesitas"></textarea>
+
+                    <button type="submit">Enviar consulta</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Grupo 5 · Proyecto 1 · Página desarrollada para promoción de emprendimientos de biodiversidad.</p>
+        </footer>
+    </div>
+</body>
+</html>
